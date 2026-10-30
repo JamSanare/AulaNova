@@ -1,0 +1,179 @@
+TAP version 13
+# Subtest: Pruebas funcionales - Aula Nova
+    # Subtest: FT-01 La página de inicio responde 200 con HTML y título
+    ok 1 - FT-01 La página de inicio responde 200 con HTML y título
+      ---
+      duration_ms: 52.651317
+      type: 'test'
+      ...
+    # Subtest: FT-02 La página incluye cabeceras de seguridad
+    ok 2 - FT-02 La página incluye cabeceras de seguridad
+      ---
+      duration_ms: 11.85427
+      type: 'test'
+      ...
+    # Subtest: FT-03 Se entrega styles.css con tipo text/css
+    ok 3 - FT-03 Se entrega styles.css con tipo text/css
+      ---
+      duration_ms: 2.746125
+      type: 'test'
+      ...
+    # Subtest: FT-04 Se entrega app.js con tipo text/javascript
+    ok 4 - FT-04 Se entrega app.js con tipo text/javascript
+      ---
+      duration_ms: 6.738927
+      type: 'test'
+      ...
+    # Subtest: FT-05 Un recurso inexistente responde 404
+    ok 5 - FT-05 Un recurso inexistente responde 404
+      ---
+      duration_ms: 5.664427
+      type: 'test'
+      ...
+    # Subtest: FT-06 GET /api/student devuelve el perfil completo
+    ok 6 - FT-06 GET /api/student devuelve el perfil completo
+      ---
+      duration_ms: 2.893097
+      type: 'test'
+      ...
+    # Subtest: FT-07 GET /api/courses devuelve cuatro cursos con sus campos
+    ok 7 - FT-07 GET /api/courses devuelve cuatro cursos con sus campos
+      ---
+      duration_ms: 8.083576
+      type: 'test'
+      ...
+    # Subtest: FT-08 Las calificaciones tienen t1, t2, t3 y final (t3 nulo en met-220)
+    ok 8 - FT-08 Las calificaciones tienen t1, t2, t3 y final (t3 nulo en met-220)
+      ---
+      duration_ms: 7.512441
+      type: 'test'
+      ...
+    # Subtest: FT-09 La bandeja de mensajes inicia vacía
+    ok 9 - FT-09 La bandeja de mensajes inicia vacía
+      ---
+      duration_ms: 7.387752
+      type: 'test'
+      ...
+    # Subtest: FT-10 POST válido responde 201 con el mensaje creado
+    ok 10 - FT-10 POST válido responde 201 con el mensaje creado
+      ---
+      duration_ms: 15.568478
+      type: 'test'
+      ...
+    # Subtest: FT-11 El mensaje enviado aparece en la bandeja
+    ok 11 - FT-11 El mensaje enviado aparece en la bandeja
+      ---
+      duration_ms: 8.791233
+      type: 'test'
+      ...
+    # Subtest: FT-12 Los mensajes se conservan en orden de envío
+    ok 12 - FT-12 Los mensajes se conservan en orden de envío
+      ---
+      duration_ms: 9.241411
+      type: 'test'
+      ...
+    # Subtest: FT-13 Las iniciales del docente se calculan correctamente
+    ok 13 - FT-13 Las iniciales del docente se calculan correctamente
+      ---
+      duration_ms: 9.132728
+      type: 'test'
+      ...
+    # Subtest: FT-14 Asunto y mensaje se recortan (trim)
+    ok 14 - FT-14 Asunto y mensaje se recortan (trim)
+      ---
+      duration_ms: 7.620912
+      type: 'test'
+      ...
+    # Subtest: FT-15 Curso inexistente responde 400
+    ok 15 - FT-15 Curso inexistente responde 400
+      ---
+      duration_ms: 7.128782
+      type: 'test'
+      ...
+    # Subtest: FT-16 Asunto de 2 caracteres responde 400
+    ok 16 - FT-16 Asunto de 2 caracteres responde 400
+      ---
+      duration_ms: 1.48478
+      type: 'test'
+      ...
+    # Subtest: FT-17 Asunto de 101 caracteres responde 400
+    ok 17 - FT-17 Asunto de 101 caracteres responde 400
+      ---
+      duration_ms: 9.723043
+      type: 'test'
+      ...
+    # Subtest: FT-18 Mensaje de 4 caracteres responde 400
+    ok 18 - FT-18 Mensaje de 4 caracteres responde 400
+      ---
+      duration_ms: 2.846637
+      type: 'test'
+      ...
+    # Subtest: FT-19 Mensaje de 1001 caracteres responde 400
+    ok 19 - FT-19 Mensaje de 1001 caracteres responde 400
+      ---
+      duration_ms: 3.774109
+      type: 'test'
+      ...
+    # Subtest: FT-20 Límites exactos válidos (asunto 3/100, mensaje 5/1000) responden 201
+    ok 20 - FT-20 Límites exactos válidos (asunto 3/100, mensaje 5/1000) responden 201
+      ---
+      duration_ms: 13.154144
+      type: 'test'
+      ...
+    # Subtest: FT-21 Campos con tipo incorrecto o cuerpo no-objeto responden 400
+    ok 21 - FT-21 Campos con tipo incorrecto o cuerpo no-objeto responden 400
+      ---
+      duration_ms: 12.979497
+      type: 'test'
+      ...
+    # Subtest: FT-22 JSON inválido o vacío responde 400 y no inserta mensajes
+    ok 22 - FT-22 JSON inválido o vacío responde 400 y no inserta mensajes
+      ---
+      duration_ms: 5.570718
+      type: 'test'
+      ...
+    # Subtest: FT-23 Un cuerpo mayor a 16 KiB responde 413
+    ok 23 - FT-23 Un cuerpo mayor a 16 KiB responde 413
+      ---
+      duration_ms: 4.77951
+      type: 'test'
+      ...
+    # Subtest: FT-24 Traversal de directorios responde 403
+    ok 24 - FT-24 Traversal de directorios responde 403
+      ---
+      duration_ms: 3.048869
+      type: 'test'
+      ...
+    # Subtest: FT-25 Percent-encoding inválido responde 400 controlado
+    ok 25 - FT-25 Percent-encoding inválido responde 400 controlado
+      ---
+      duration_ms: 3.403595
+      type: 'test'
+      ...
+    # Subtest: FT-26 Una ruta de API desconocida responde 404
+    ok 26 - FT-26 Una ruta de API desconocida responde 404
+      ---
+      duration_ms: 2.051365
+      type: 'test'
+      ...
+    # Subtest: FT-27 Métodos no soportados (PUT/DELETE) responden 404
+    ok 27 - FT-27 Métodos no soportados (PUT/DELETE) responden 404
+      ---
+      duration_ms: 3.402743
+      type: 'test'
+      ...
+    1..27
+ok 1 - Pruebas funcionales - Aula Nova
+  ---
+  duration_ms: 244.602088
+  type: 'test'
+  ...
+1..1
+# tests 28
+# suites 0
+# pass 28
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 307.272172

@@ -1,0 +1,22 @@
+
+     ✓ HTTP 200
+     ✓ JSON válido con perfil
+
+   ✓ checks.........................: 100.00% 4520 out of 4520
+     data_received..................: 1.0 MB  34 kB/s
+     data_sent......................: 206 kB  6.8 kB/s
+     http_req_blocked...............: avg=10.21µs  min=1.33µs   med=4.05µs   max=508.04µs p(90)=28.7µs   p(95)=32.13µs 
+     http_req_connecting............: avg=1.92µs   min=0s       med=0s       max=393.06µs p(90)=0s       p(95)=0s      
+   ✓ http_req_duration..............: avg=319.82µs min=93.39µs  med=247.36µs max=11.17ms  p(90)=401.4µs  p(95)=537.89µs
+       { expected_response:true }...: avg=319.82µs min=93.39µs  med=247.36µs max=11.17ms  p(90)=401.4µs  p(95)=537.89µs
+   ✓ http_req_failed................: 0.00%   0 out of 2260
+     http_req_receiving.............: avg=30.03µs  min=8.07µs   med=24.5µs   max=1.56ms   p(90)=36.36µs  p(95)=52.77µs 
+     http_req_sending...............: avg=16.14µs  min=3.32µs   med=9.99µs   max=509.81µs p(90)=33.5µs   p(95)=36.33µs 
+     http_req_tls_handshaking.......: avg=0s       min=0s       med=0s       max=0s       p(90)=0s       p(95)=0s      
+     http_req_waiting...............: avg=273.63µs min=73.57µs  med=202.54µs max=11.09ms  p(90)=341.62µs p(95)=466.03µs
+     http_reqs......................: 2260    74.837181/s
+     iteration_duration.............: avg=201.05ms min=200.25ms med=200.99ms max=212.11ms p(90)=201.41ms p(95)=201.53ms
+     iterations.....................: 2260    74.837181/s
+     vus............................: 1       min=1            max=20
+     vus_max........................: 20      min=20           max=20
+

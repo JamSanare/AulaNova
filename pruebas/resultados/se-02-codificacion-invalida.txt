@@ -1,0 +1,37 @@
+
+     ✓ /%E0%A4 error controlado (400/404)
+     ✓ /%E0%A4 sin trazas internas
+     ✓ /%E0%A4 responde JSON
+     ✓ /%FF error controlado (400/404)
+     ✓ /%FF sin trazas internas
+     ✓ /%FF responde JSON
+     ✓ /%C0%AF error controlado (400/404)
+     ✓ /%C0%AF sin trazas internas
+     ✓ /%C0%AF responde JSON
+     ✓ /%80 error controlado (400/404)
+     ✓ /%80 sin trazas internas
+     ✓ /%80 responde JSON
+     ✓ /app%E0%A4%A8%E0/styles.css error controlado (400/404)
+     ✓ /app%E0%A4%A8%E0/styles.css sin trazas internas
+     ✓ /app%E0%A4%A8%E0/styles.css responde JSON
+     ✓ /%ED%A0%80 error controlado (400/404)
+     ✓ /%ED%A0%80 sin trazas internas
+     ✓ /%ED%A0%80 responde JSON
+     ✓ servidor sigue disponible
+
+   ✓ checks.........................: 100.00% 19 out of 19
+     data_received..................: 2.3 kB  116 kB/s
+     data_sent......................: 624 B   31 kB/s
+     http_req_blocked...............: avg=329.2µs min=2.55µs   med=3.84µs  max=2.27ms   p(90)=916.8µs  p(95)=1.59ms  
+     http_req_connecting............: avg=313.5µs min=0s       med=0s      max=2.19ms   p(90)=877.8µs  p(95)=1.53ms  
+     http_req_duration..............: avg=2.21ms  min=762µs    med=1.1ms   max=7.33ms   p(90)=4.33ms   p(95)=5.83ms  
+       { expected_response:true }...: avg=1.1ms   min=1.1ms    med=1.1ms   max=1.1ms    p(90)=1.1ms    p(95)=1.1ms   
+     http_req_failed................: 85.71%  6 out of 7
+     http_req_receiving.............: avg=62.24µs min=31.12µs  med=44.69µs max=124.39µs p(90)=106.89µs p(95)=115.64µs
+     http_req_sending...............: avg=24.24µs min=7.15µs   med=9.65µs  max=67.1µs   p(90)=62.24µs  p(95)=64.67µs 
+     http_req_tls_handshaking.......: avg=0s      min=0s       med=0s      max=0s       p(90)=0s       p(95)=0s      
+     http_req_waiting...............: avg=2.12ms  min=716.34µs med=1.06ms  max=7.14ms   p(90)=4.22ms   p(95)=5.68ms  
+     http_reqs......................: 7       348.160719/s
+     iteration_duration.............: avg=19.96ms min=19.96ms  med=19.96ms max=19.96ms  p(90)=19.96ms  p(95)=19.96ms 
+     iterations.....................: 1       49.737246/s
+

@@ -1,0 +1,29 @@
+
+     ✓ HTTP 200
+
+     checks.........................: 100.00% 2471 out of 2471
+     data_received..................: 1.0 GB  22 MB/s
+     data_sent......................: 218 kB  4.7 kB/s
+     http_req_blocked...............: avg=19.66µs  min=1.23µs   med=4.26µs   max=1.81ms   p(90)=6.32µs   p(95)=21.61µs 
+     http_req_connecting............: avg=13.19µs  min=0s       med=0s       max=1.74ms   p(90)=0s       p(95)=0s      
+     http_req_duration..............: avg=3.53ms   min=109.97µs med=562.13µs max=51.84ms  p(90)=8.66ms   p(95)=12.61ms 
+       { expected_response:true }...: avg=3.53ms   min=109.97µs med=562.13µs max=51.84ms  p(90)=8.66ms   p(95)=12.61ms 
+     ✓ { nivel:10 }.................: avg=3.08ms   min=117.52µs med=413.8µs  max=42.97ms  p(90)=7.89ms   p(95)=12.31ms 
+     ✓ { nivel:15 }.................: avg=3.71ms   min=112.91µs med=699.72µs max=51.84ms  p(90)=9.02ms   p(95)=12.11ms 
+     ✓ { nivel:20 }.................: avg=3.8ms    min=109.97µs med=646.42µs max=47.06ms  p(90)=9.84ms   p(95)=14.33ms 
+     ✓ { nivel:5 }..................: avg=2.78ms   min=142.4µs  med=452.2µs  max=26.88ms  p(90)=6.75ms   p(95)=9.41ms  
+   ✓ http_req_failed................: 0.00%   0 out of 2471
+     ✓ { nivel:10 }.................: 0.00%   0 out of 496
+     ✓ { nivel:15 }.................: 0.00%   0 out of 740
+     ✓ { nivel:20 }.................: 0.00%   0 out of 985
+     ✓ { nivel:5 }..................: 0.00%   0 out of 250
+     http_req_receiving.............: avg=210.84µs min=8.89µs   med=35.57µs  max=18.39ms  p(90)=471.09µs p(95)=947.06µs
+     http_req_sending...............: avg=31.89µs  min=3.23µs   med=10.16µs  max=4.43ms   p(90)=31.39µs  p(95)=79.23µs 
+     http_req_tls_handshaking.......: avg=0s       min=0s       med=0s       max=0s       p(90)=0s       p(95)=0s      
+     http_req_waiting...............: avg=3.28ms   min=47.9µs   med=479.18µs max=51.65ms  p(90)=8.06ms   p(95)=12.07ms 
+     http_reqs......................: 2471    53.492245/s
+     iteration_duration.............: avg=204.48ms min=200.23ms med=201.54ms max=252.71ms p(90)=210.05ms p(95)=213.69ms
+     iterations.....................: 2471    53.492245/s
+     vus............................: 20      min=0            max=20
+     vus_max........................: 50      min=50           max=50
+

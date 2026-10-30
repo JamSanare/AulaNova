@@ -1,0 +1,239 @@
+{
+    "root_group": {
+        "name": "",
+        "path": "",
+        "id": "d41d8cd98f00b204e9800998ecf8427e",
+        "groups": {},
+        "checks": {
+                "/package.json no accesible (404/403)": {
+                    "id": "9e328a1a3a06460e692020df7a2eb76f",
+                    "passes": 1,
+                    "fails": 0,
+                    "name": "/package.json no accesible (404/403)",
+                    "path": "::/package.json no accesible (404/403)"
+                },
+                "/package.json no revela contenido": {
+                    "fails": 0,
+                    "name": "/package.json no revela contenido",
+                    "path": "::/package.json no revela contenido",
+                    "id": "d3908ceeabc9b0de974651f3245f59fc",
+                    "passes": 1
+                },
+                "/backend/server.js no accesible (404/403)": {
+                    "name": "/backend/server.js no accesible (404/403)",
+                    "path": "::/backend/server.js no accesible (404/403)",
+                    "id": "b0af353966a81320d0545861e85623c4",
+                    "passes": 1,
+                    "fails": 0
+                },
+                "/backend/server.js no revela contenido": {
+                    "id": "adb03c158985648aedc3e6b6fd7d8eaf",
+                    "passes": 1,
+                    "fails": 0,
+                    "name": "/backend/server.js no revela contenido",
+                    "path": "::/backend/server.js no revela contenido"
+                },
+                "/README.md no accesible (404/403)": {
+                    "name": "/README.md no accesible (404/403)",
+                    "path": "::/README.md no accesible (404/403)",
+                    "id": "761ce14b5ffecfabd25979610bfb8f13",
+                    "passes": 1,
+                    "fails": 0
+                },
+                "/README.md no revela contenido": {
+                    "id": "c52b971d3eb25a24cf7b7ded1ba120a5",
+                    "passes": 1,
+                    "fails": 0,
+                    "name": "/README.md no revela contenido",
+                    "path": "::/README.md no revela contenido"
+                },
+                "/.env no accesible (404/403)": {
+                    "name": "/.env no accesible (404/403)",
+                    "path": "::/.env no accesible (404/403)",
+                    "id": "9731e91c08d6fb5a0fe8102968da2c50",
+                    "passes": 1,
+                    "fails": 0
+                },
+                "/.env no revela contenido": {
+                    "passes": 1,
+                    "fails": 0,
+                    "name": "/.env no revela contenido",
+                    "path": "::/.env no revela contenido",
+                    "id": "c30c1cac91d068a8f1f5f54581af6387"
+                },
+                "/.git/config no accesible (404/403)": {
+                    "name": "/.git/config no accesible (404/403)",
+                    "path": "::/.git/config no accesible (404/403)",
+                    "id": "1032cb681d080680d3360e4b1ff01a5b",
+                    "passes": 1,
+                    "fails": 0
+                },
+                "/.git/config no revela contenido": {
+                    "fails": 0,
+                    "name": "/.git/config no revela contenido",
+                    "path": "::/.git/config no revela contenido",
+                    "id": "0f249baa711d3810fefbea151caea883",
+                    "passes": 1
+                },
+                "/node_modules/ no accesible (404/403)": {
+                    "name": "/node_modules/ no accesible (404/403)",
+                    "path": "::/node_modules/ no accesible (404/403)",
+                    "id": "a200392b70773791a6e5515635260ead",
+                    "passes": 1,
+                    "fails": 0
+                },
+                "/node_modules/ no revela contenido": {
+                    "path": "::/node_modules/ no revela contenido",
+                    "id": "65583d007d29fab76d3e665156142d90",
+                    "passes": 1,
+                    "fails": 0,
+                    "name": "/node_modules/ no revela contenido"
+                },
+                "/server.js no accesible (404/403)": {
+                    "passes": 1,
+                    "fails": 0,
+                    "name": "/server.js no accesible (404/403)",
+                    "path": "::/server.js no accesible (404/403)",
+                    "id": "1e52f260586e0216434e0e146d360432"
+                },
+                "/server.js no revela contenido": {
+                    "passes": 1,
+                    "fails": 0,
+                    "name": "/server.js no revela contenido",
+                    "path": "::/server.js no revela contenido",
+                    "id": "c51d8cddb3de6e77b460d38bbe487d02"
+                },
+                "/app/../package.json no accesible (404/403)": {
+                    "name": "/app/../package.json no accesible (404/403)",
+                    "path": "::/app/../package.json no accesible (404/403)",
+                    "id": "e5eb71aa32a07dbfdd3932ecde522c4d",
+                    "passes": 1,
+                    "fails": 0
+                },
+                "/app/../package.json no revela contenido": {
+                    "fails": 0,
+                    "name": "/app/../package.json no revela contenido",
+                    "path": "::/app/../package.json no revela contenido",
+                    "id": "723e38bd9cebeea0e5617287c30b0153",
+                    "passes": 1
+                },
+                "404 de API genérico": {
+                    "id": "8bd4b772f1af4561fb8f842af30213c4",
+                    "passes": 1,
+                    "fails": 0,
+                    "name": "404 de API genérico",
+                    "path": "::404 de API genérico"
+                },
+                "servidor sigue disponible": {
+                    "name": "servidor sigue disponible",
+                    "path": "::servidor sigue disponible",
+                    "id": "81b625616f021414f6579e21a2481fc5",
+                    "passes": 1,
+                    "fails": 0
+                }
+            }
+    },
+    "metrics": {
+        "http_req_blocked": {
+            "avg": 0.07256920000000001,
+            "min": 0.00312,
+            "med": 0.0040285,
+            "max": 0.690376,
+            "p(90)": 0.07352319999999976,
+            "p(95)": 0.3819495999999993
+        },
+        "http_req_waiting": {
+            "avg": 1.8852171000000002,
+            "min": 0.591118,
+            "med": 0.8879980000000001,
+            "max": 6.196936,
+            "p(90)": 5.4467644,
+            "p(95)": 5.821850199999999
+        },
+        "http_req_duration": {
+            "avg": 1.9529887,
+            "min": 0.633797,
+            "med": 0.9239360000000001,
+            "max": 6.334909,
+            "p(90)": 5.6307265,
+            "p(95)": 5.982817749999999
+        },
+        "data_received": {
+            "count": 2983,
+            "rate": 133861.33545237817
+        },
+        "http_req_receiving": {
+            "avg": 0.0402606,
+            "min": 0.025496,
+            "med": 0.037367,
+            "max": 0.06909,
+            "p(90)": 0.0533508,
+            "p(95)": 0.06122039999999998
+        },
+        "iteration_duration": {
+            "min": 22.097747,
+            "med": 22.097747,
+            "max": 22.097747,
+            "p(90)": 22.097747,
+            "p(95)": 22.097747,
+            "avg": 22.097747
+        },
+        "http_req_tls_handshaking": {
+            "avg": 0,
+            "min": 0,
+            "med": 0,
+            "max": 0,
+            "p(90)": 0,
+            "p(95)": 0
+        },
+        "http_req_sending": {
+            "min": 0.007055,
+            "med": 0.0091695,
+            "max": 0.13747,
+            "p(90)": 0.07574169999999998,
+            "p(95)": 0.10660584999999993,
+            "avg": 0.027510999999999997
+        },
+        "http_req_failed": {
+            "passes": 9,
+            "fails": 1,
+            "value": 0.9
+        },
+        "http_reqs": {
+            "count": 10,
+            "rate": 448.74735317592416
+        },
+        "checks": {
+            "passes": 18,
+            "fails": 0,
+            "thresholds": {
+                "rate==1": false
+            },
+            "value": 1
+        },
+        "http_req_duration{expected_response:true}": {
+            "med": 1.015112,
+            "max": 1.015112,
+            "p(90)": 1.015112,
+            "p(95)": 1.015112,
+            "avg": 1.015112,
+            "min": 1.015112
+        },
+        "http_req_connecting": {
+            "med": 0,
+            "max": 0.617319,
+            "p(90)": 0.06173189999999978,
+            "p(95)": 0.33952544999999934,
+            "avg": 0.06173189999999999,
+            "min": 0
+        },
+        "data_sent": {
+            "count": 918,
+            "rate": 41195.007021549834
+        },
+        "iterations": {
+            "count": 1,
+            "rate": 44.87473531759241
+        }
+    }
+}

@@ -1,0 +1,27 @@
+
+     ✓ HTTP 201
+
+   ✓ checks.........................: 100.00% 1512 out of 1512
+     data_received..................: 1.4 MB  47 kB/s
+     data_sent......................: 983 kB  33 kB/s
+     http_req_blocked...............: avg=10.47µs  min=1.34µs   med=3.94µs   max=1.45ms   p(90)=5.66µs   p(95)=24.85µs 
+     http_req_connecting............: avg=4.01µs   min=0s       med=0s       max=1.25ms   p(90)=0s       p(95)=0s      
+   ✓ http_req_duration..............: avg=451.99µs min=127.35µs med=365.42µs max=8.17ms   p(90)=699.39µs p(95)=864.86µs
+       { expected_response:true }...: avg=451.99µs min=127.35µs med=365.42µs max=8.17ms   p(90)=699.39µs p(95)=864.86µs
+   ✓ http_req_failed................: 0.00%   0 out of 1512
+     http_req_receiving.............: avg=30.26µs  min=8.85µs   med=24.52µs  max=728.84µs p(90)=40.33µs  p(95)=62.23µs 
+     http_req_sending...............: avg=26.46µs  min=4.17µs   med=12.76µs  max=982.86µs p(90)=38.34µs  p(95)=53.07µs 
+     http_req_tls_handshaking.......: avg=0s       min=0s       med=0s       max=0s       p(90)=0s       p(95)=0s      
+     http_req_waiting...............: avg=395.26µs min=97.31µs  med=305.91µs max=8.14ms   p(90)=626.54µs p(95)=753.82µs
+     http_reqs......................: 1512    50.188866/s
+     iteration_duration.............: avg=301.24ms min=300.32ms med=301.19ms max=308.91ms p(90)=301.77ms p(95)=301.99ms
+     iterations.....................: 1512    50.188866/s
+   ✓ latencia_cuerpo_1000...........: avg=430.11µs min=127.35µs med=368.85µs max=3.55ms   p(90)=707.47µs p(95)=782.83µs
+   ✓ latencia_cuerpo_200............: avg=434.18µs min=167.31µs med=355.72µs max=3.41ms   p(90)=672.19µs p(95)=869.51µs
+   ✓ latencia_cuerpo_5..............: avg=455.06µs min=141.74µs med=355.47µs max=5.22ms   p(90)=697.6µs  p(95)=810.79µs
+   ✓ latencia_cuerpo_50.............: avg=447.34µs min=167.3µs  med=367.79µs max=8.16ms   p(90)=673.94µs p(95)=798.49µs
+   ✓ latencia_cuerpo_500............: avg=459.71µs min=159.03µs med=373.09µs max=5.64ms   p(90)=697.22µs p(95)=941.51µs
+   ✓ latencia_cuerpo_900............: avg=485.49µs min=160.96µs med=359.93µs max=8.17ms   p(90)=747.08µs p(95)=893.99µs
+     vus............................: 2       min=2            max=20
+     vus_max........................: 20      min=20           max=20
+

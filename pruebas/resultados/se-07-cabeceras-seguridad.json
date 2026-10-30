@@ -1,0 +1,169 @@
+{
+    "metrics": {
+        "http_req_tls_handshaking": {
+            "p(90)": 0,
+            "p(95)": 0,
+            "avg": 0,
+            "min": 0,
+            "med": 0,
+            "max": 0
+        },
+        "checks": {
+            "passes": 8,
+            "fails": 0,
+            "thresholds": {
+                "rate==1": false
+            },
+            "value": 1
+        },
+        "http_req_waiting": {
+            "max": 8.062208,
+            "p(90)": 7.335611,
+            "p(95)": 7.6989095,
+            "avg": 4.429223,
+            "min": 0.796238,
+            "med": 4.429223
+        },
+        "http_req_duration": {
+            "p(95)": 7.8767008999999995,
+            "avg": 4.546763,
+            "min": 0.846832,
+            "med": 4.546763,
+            "max": 8.246694,
+            "p(90)": 7.5067078
+        },
+        "data_sent": {
+            "count": 212,
+            "rate": 16973.434813123284
+        },
+        "http_req_receiving": {
+            "min": 0.03907,
+            "med": 0.076633,
+            "max": 0.114196,
+            "p(90)": 0.10668340000000001,
+            "p(95)": 0.1104397,
+            "avg": 0.076633
+        },
+        "iteration_duration": {
+            "avg": 12.380644,
+            "min": 12.380644,
+            "med": 12.380644,
+            "max": 12.380644,
+            "p(90)": 12.380644,
+            "p(95)": 12.380644
+        },
+        "http_req_connecting": {
+            "p(90)": 2.4515757000000002,
+            "p(95)": 2.5877743499999997,
+            "avg": 1.3619865,
+            "min": 0,
+            "med": 1.3619865,
+            "max": 2.723973
+        },
+        "http_req_duration{expected_response:true}": {
+            "min": 0.846832,
+            "med": 4.546763,
+            "max": 8.246694,
+            "p(90)": 7.5067078,
+            "p(95)": 7.8767008999999995,
+            "avg": 4.546763
+        },
+        "http_req_failed": {
+            "passes": 0,
+            "fails": 2,
+            "value": 0
+        },
+        "http_reqs": {
+            "count": 2,
+            "rate": 160.12674352003097
+        },
+        "iterations": {
+            "count": 1,
+            "rate": 80.06337176001549
+        },
+        "http_req_sending": {
+            "avg": 0.040907,
+            "min": 0.011524,
+            "med": 0.040907,
+            "max": 0.07029,
+            "p(90)": 0.06441340000000001,
+            "p(95)": 0.0673517
+        },
+        "data_received": {
+            "count": 15579,
+            "rate": 1247307.2686492812
+        },
+        "http_req_blocked": {
+            "avg": 1.4043245,
+            "min": 0.003845,
+            "med": 1.4043245,
+            "max": 2.804804,
+            "p(90)": 2.5247081,
+            "p(95)": 2.66475605
+        }
+    },
+    "root_group": {
+        "name": "",
+        "path": "",
+        "id": "d41d8cd98f00b204e9800998ecf8427e",
+        "groups": {},
+        "checks": {
+                "CSP presente con default-src 'self'": {
+                    "name": "CSP presente con default-src 'self'",
+                    "path": "::CSP presente con default-src 'self'",
+                    "id": "3b57c2a40ee7810d73a2bb410b6bf310",
+                    "passes": 1,
+                    "fails": 0
+                },
+                "CSP bloquea frames (frame-ancestors 'none')": {
+                    "fails": 0,
+                    "name": "CSP bloquea frames (frame-ancestors 'none')",
+                    "path": "::CSP bloquea frames (frame-ancestors 'none')",
+                    "id": "15bf78fde1deded736722ebab71662da",
+                    "passes": 1
+                },
+                "X-Frame-Options DENY": {
+                    "name": "X-Frame-Options DENY",
+                    "path": "::X-Frame-Options DENY",
+                    "id": "e7b63bfcadab0f870652be7331bd5c41",
+                    "passes": 1,
+                    "fails": 0
+                },
+                "nosniff": {
+                    "name": "nosniff",
+                    "path": "::nosniff",
+                    "id": "e6709c9235458190ea1dc825488fb31d",
+                    "passes": 1,
+                    "fails": 0
+                },
+                "Referrer-Policy": {
+                    "name": "Referrer-Policy",
+                    "path": "::Referrer-Policy",
+                    "id": "dfdbc4d821099ad0d05cd44ca2e9e4b8",
+                    "passes": 1,
+                    "fails": 0
+                },
+                "sin X-Powered-By": {
+                    "name": "sin X-Powered-By",
+                    "path": "::sin X-Powered-By",
+                    "id": "b8ccb83bac830b4dc104c65297098478",
+                    "passes": 1,
+                    "fails": 0
+                },
+                "API sin Access-Control-Allow-Origin abierto": {
+                    "name": "API sin Access-Control-Allow-Origin abierto",
+                    "path": "::API sin Access-Control-Allow-Origin abierto",
+                    "id": "dc743afa22bd2d7431f1ecd550df84a1",
+                    "passes": 1,
+                    "fails": 0
+                },
+                "API con Cache-Control no-store": {
+                    "name": "API con Cache-Control no-store",
+                    "path": "::API con Cache-Control no-store",
+                    "id": "a5f20a98e9a4ef16b1a5b7183aa269a2",
+                    "passes": 1,
+                    "fails": 0
+                }
+            }
+    }
+}

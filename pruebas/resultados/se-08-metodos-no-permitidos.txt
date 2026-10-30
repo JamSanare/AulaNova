@@ -1,0 +1,29 @@
+
+     ✓ PUT rechazado (404/405/501)
+     ✓ sin trazas internas
+     ✓ PATCH rechazado (404/405/501)
+     ✓ DELETE rechazado (404/405/501)
+     ✓ OPTIONS rechazado (404/405/501)
+     ✓ TRACE rechazado (404/405/501)
+     ✓ POST /api/student rechazado
+     ✓ PUT /api/student rechazado
+     ✓ DELETE /api/student rechazado
+     ✓ los datos no cambiaron
+     ✓ servidor sigue disponible
+
+   ✓ checks.........................: 100.00% 15 out of 15
+     data_received..................: 3.3 kB  152 kB/s
+     data_sent......................: 1.4 kB  65 kB/s
+     http_req_blocked...............: avg=38.76µs min=2.46µs   med=3.19µs   max=392.92µs p(90)=6.28µs  p(95)=199.6µs 
+     http_req_connecting............: avg=29.11µs min=0s       med=0s       max=320.29µs p(90)=0s      p(95)=160.14µs
+     http_req_duration..............: avg=1.53ms  min=334.28µs med=799.78µs max=5.59ms   p(90)=3.58ms  p(95)=4.58ms  
+       { expected_response:true }...: avg=2.37ms  min=379.93µs med=1.15ms   max=5.59ms   p(90)=4.7ms   p(95)=5.14ms  
+     http_req_failed................: 72.72%  8 out of 11
+     http_req_receiving.............: avg=42.03µs min=26.72µs  med=33.9µs   max=78.18µs  p(90)=69.03µs p(95)=73.6µs  
+     http_req_sending...............: avg=28.64µs min=6.23µs   med=9.91µs   max=129.91µs p(90)=98.55µs p(95)=114.23µs
+     http_req_tls_handshaking.......: avg=0s      min=0s       med=0s       max=0s       p(90)=0s      p(95)=0s      
+     http_req_waiting...............: avg=1.46ms  min=297.63µs med=760.02µs max=5.41ms   p(90)=3.4ms   p(95)=4.4ms   
+     http_reqs......................: 11      511.433229/s
+     iteration_duration.............: avg=21.39ms min=21.39ms  med=21.39ms  max=21.39ms  p(90)=21.39ms p(95)=21.39ms 
+     iterations.....................: 1       46.49393/s
+

@@ -1,0 +1,30 @@
+
+     ✓ curso inexistente → 400
+     ✓ sin trazas internas
+     ✓ curso ausente → 400
+     ✓ asunto de 2 caracteres → 400
+     ✓ asunto de 101 caracteres → 400
+     ✓ asunto solo espacios → 400
+     ✓ mensaje de 4 caracteres → 400
+     ✓ mensaje de 1001 caracteres → 400
+     ✓ mensaje solo espacios → 400
+     ✓ asunto numérico → 400
+     ✓ curso como objeto → 400
+     ✓ servidor sigue disponible
+
+   ✓ checks.........................: 100.00% 21 out of 21
+     data_received..................: 4.1 kB  209 kB/s
+     data_sent......................: 3.3 kB  168 kB/s
+     http_req_blocked...............: avg=33.12µs min=2.5µs    med=2.81µs   max=329.2µs  p(90)=10.18µs p(95)=169.69µs
+     http_req_connecting............: avg=23.56µs min=0s       med=0s       max=259.16µs p(90)=0s      p(95)=129.58µs
+     http_req_duration..............: avg=1.57ms  min=349.2µs  med=808.14µs max=7.54ms   p(90)=2.13ms  p(95)=4.84ms  
+       { expected_response:true }...: avg=349.2µs min=349.2µs  med=349.2µs  max=349.2µs  p(90)=349.2µs p(95)=349.2µs 
+     http_req_failed................: 90.90%  10 out of 11
+     http_req_receiving.............: avg=48.67µs min=27.71µs  med=34.38µs  max=128.29µs p(90)=78.48µs p(95)=103.39µs
+     http_req_sending...............: avg=16.8µs  min=6.76µs   med=10µs     max=74.56µs  p(90)=17.76µs p(95)=46.16µs 
+     http_req_tls_handshaking.......: avg=0s      min=0s       med=0s       max=0s       p(90)=0s      p(95)=0s      
+     http_req_waiting...............: avg=1.5ms   min=314.12µs med=759.75µs max=7.41ms   p(90)=2.04ms  p(95)=4.72ms  
+     http_reqs......................: 11      559.657079/s
+     iteration_duration.............: avg=19.55ms min=19.55ms  med=19.55ms  max=19.55ms  p(90)=19.55ms p(95)=19.55ms 
+     iterations.....................: 1       50.877916/s
+

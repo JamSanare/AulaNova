@@ -1,0 +1,25 @@
+
+     ✓ courses 200
+     ✓ sonda 200
+
+     checks.........................: 100.00% 414744 out of 414744
+     data_received..................: 875 MB  17 MB/s
+     data_sent......................: 38 MB   748 kB/s
+     http_req_blocked...............: avg=8.38µs  min=577ns   med=1.17µs  max=115.28ms p(90)=1.92µs  p(95)=2.42µs 
+     http_req_connecting............: avg=6.81µs  min=0s      med=0s      max=115.21ms p(90)=0s      p(95)=0s     
+     http_req_duration..............: avg=9.59ms  min=31.68µs med=6.43ms  max=138.93ms p(90)=22.16ms p(95)=27.55ms
+       { expected_response:true }...: avg=9.59ms  min=31.68µs med=6.43ms  max=138.93ms p(90)=22.16ms p(95)=27.55ms
+     ✓ { tipo:saturacion }..........: avg=9.59ms  min=31.68µs med=6.42ms  max=138.93ms p(90)=22.15ms p(95)=27.52ms
+     ✓ { tipo:sonda }...............: avg=14.29ms min=46.87µs med=10.89ms max=86.4ms   p(90)=30.28ms p(95)=37.75ms
+     http_req_failed................: 0.00%   0 out of 414744
+     ✓ { tipo:sonda }...............: 0.00%   0 out of 831
+     http_req_receiving.............: avg=47.53µs min=5.49µs  med=10.14µs max=79.14ms  p(90)=17.32µs p(95)=26.57µs
+     http_req_sending...............: avg=18.82µs min=1.56µs  med=2.92µs  max=56.79ms  p(90)=5.04µs  p(95)=6.8µs  
+     http_req_tls_handshaking.......: avg=0s      min=0s      med=0s      max=0s       p(90)=0s      p(95)=0s     
+     http_req_waiting...............: avg=9.53ms  min=23.52µs med=6.39ms  max=117.84ms p(90)=22.03ms p(95)=27.37ms
+     http_reqs......................: 414744  8218.238069/s
+     iteration_duration.............: avg=9.99ms  min=53.41µs med=6.48ms  max=656.96ms p(90)=22.25ms p(95)=27.7ms 
+     iterations.....................: 414190  8207.260444/s
+     vus............................: 5       min=5                max=202
+     vus_max........................: 203     min=203              max=203
+

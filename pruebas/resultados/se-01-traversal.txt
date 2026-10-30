@@ -1,0 +1,35 @@
+
+     ✓ /..%2Fbackend%2Fserver.js rechazado (400/403/404)
+     ✓ /..%2Fbackend%2Fserver.js no revela código del backend
+     ✓ /%2e%2e%2fbackend%2fserver.js rechazado (400/403/404)
+     ✓ /%2e%2e%2fbackend%2fserver.js no revela código del backend
+     ✓ /..%2F..%2Fpackage.json rechazado (400/403/404)
+     ✓ /..%2F..%2Fpackage.json no revela código del backend
+     ✓ /%2e%2e/%2e%2e/package.json rechazado (400/403/404)
+     ✓ /%2e%2e/%2e%2e/package.json no revela código del backend
+     ✓ /..%5Cbackend%5Cserver.js rechazado (400/403/404)
+     ✓ /..%5Cbackend%5Cserver.js no revela código del backend
+     ✓ /%2e%2e%5c%2e%2e%5cpackage.json rechazado (400/403/404)
+     ✓ /%2e%2e%5c%2e%2e%5cpackage.json no revela código del backend
+     ✓ /..%252Fbackend%252Fserver.js rechazado (400/403/404)
+     ✓ /..%252Fbackend%252Fserver.js no revela código del backend
+     ✓ /....%2F%2Fbackend%2Fserver.js rechazado (400/403/404)
+     ✓ /....%2F%2Fbackend%2Fserver.js no revela código del backend
+     ✓ servidor sigue disponible
+
+   ✓ checks.........................: 100.00% 17 out of 17
+     data_received..................: 2.7 kB  75 kB/s
+     data_sent......................: 942 B   26 kB/s
+     http_req_blocked...............: avg=390.74µs min=2.66µs   med=2.96µs  max=3.48ms   p(90)=703.35µs p(95)=2.09ms  
+     http_req_connecting............: avg=337.07µs min=0s       med=0s      max=3.03ms   p(90)=606.72µs p(95)=1.82ms  
+     http_req_duration..............: avg=3.12ms   min=611.65µs med=1.38ms  max=9.37ms   p(90)=9.31ms   p(95)=9.34ms  
+       { expected_response:true }...: avg=1.22ms   min=1.22ms   med=1.22ms  max=1.22ms   p(90)=1.22ms   p(95)=1.22ms  
+     http_req_failed................: 88.88%  8 out of 9
+     http_req_receiving.............: avg=62.84µs  min=30.25µs  med=63.55µs max=135.88µs p(90)=101.97µs p(95)=118.92µs
+     http_req_sending...............: avg=90.63µs  min=7.17µs   med=8.27µs  max=413.55µs p(90)=358.13µs p(95)=385.84µs
+     http_req_tls_handshaking.......: avg=0s       min=0s       med=0s      max=0s       p(90)=0s       p(95)=0s      
+     http_req_waiting...............: avg=2.97ms   min=572.35µs med=1.28ms  max=8.88ms   p(90)=8.83ms   p(95)=8.85ms  
+     http_reqs......................: 9       250.716827/s
+     iteration_duration.............: avg=35.65ms  min=35.65ms  med=35.65ms max=35.65ms  p(90)=35.65ms  p(95)=35.65ms 
+     iterations.....................: 1       27.857425/s
+

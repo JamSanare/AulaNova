@@ -1,0 +1,26 @@
+
+     ✓ CSP presente con default-src 'self'
+     ✓ CSP bloquea frames (frame-ancestors 'none')
+     ✓ X-Frame-Options DENY
+     ✓ nosniff
+     ✓ Referrer-Policy
+     ✓ sin X-Powered-By
+     ✓ API sin Access-Control-Allow-Origin abierto
+     ✓ API con Cache-Control no-store
+
+   ✓ checks.........................: 100.00% 8 out of 8
+     data_received..................: 16 kB   1.2 MB/s
+     data_sent......................: 212 B   17 kB/s
+     http_req_blocked...............: avg=1.4ms   min=3.84µs   med=1.4ms   max=2.8ms    p(90)=2.52ms   p(95)=2.66ms  
+     http_req_connecting............: avg=1.36ms  min=0s       med=1.36ms  max=2.72ms   p(90)=2.45ms   p(95)=2.58ms  
+     http_req_duration..............: avg=4.54ms  min=846.83µs med=4.54ms  max=8.24ms   p(90)=7.5ms    p(95)=7.87ms  
+       { expected_response:true }...: avg=4.54ms  min=846.83µs med=4.54ms  max=8.24ms   p(90)=7.5ms    p(95)=7.87ms  
+     http_req_failed................: 0.00%   0 out of 2
+     http_req_receiving.............: avg=76.63µs min=39.07µs  med=76.63µs max=114.19µs p(90)=106.68µs p(95)=110.43µs
+     http_req_sending...............: avg=40.9µs  min=11.52µs  med=40.9µs  max=70.29µs  p(90)=64.41µs  p(95)=67.35µs 
+     http_req_tls_handshaking.......: avg=0s      min=0s       med=0s      max=0s       p(90)=0s       p(95)=0s      
+     http_req_waiting...............: avg=4.42ms  min=796.23µs med=4.42ms  max=8.06ms   p(90)=7.33ms   p(95)=7.69ms  
+     http_reqs......................: 2       160.126744/s
+     iteration_duration.............: avg=12.38ms min=12.38ms  med=12.38ms max=12.38ms  p(90)=12.38ms  p(95)=12.38ms 
+     iterations.....................: 1       80.063372/s
+

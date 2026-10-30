@@ -1,0 +1,23 @@
+
+     ✓ acepta o rechaza sin error 5xx
+     ✓ no acepta id/profesor/fecha impuestos
+     ✓ no expone campos extra (isAdmin)
+     ✓ servidor sin contaminación (curso sigue válido)
+     ✓ servidor sigue disponible
+
+   ✓ checks.........................: 100.00% 11 out of 11
+     data_received..................: 3.1 kB  178 kB/s
+     data_sent......................: 965 B   56 kB/s
+     http_req_blocked...............: avg=80.05µs  min=2.44µs   med=3.75µs  max=201.66µs p(90)=196.97µs p(95)=199.31µs
+     http_req_connecting............: avg=24.25µs  min=0s       med=0s      max=121.27µs p(90)=72.76µs  p(95)=97.01µs 
+     http_req_duration..............: avg=2.93ms   min=794.15µs med=1.62ms  max=7.79ms   p(90)=6.08ms   p(95)=6.94ms  
+       { expected_response:true }...: avg=2.93ms   min=794.15µs med=1.62ms  max=7.79ms   p(90)=6.08ms   p(95)=6.94ms  
+     http_req_failed................: 0.00%   0 out of 5
+     http_req_receiving.............: avg=48.62µs  min=29.32µs  med=32.56µs max=101.4µs  p(90)=79.85µs  p(95)=90.62µs 
+     http_req_sending...............: avg=209.22µs min=6.62µs   med=12.15µs max=845.6µs  p(90)=577.3µs  p(95)=711.45µs
+     http_req_tls_handshaking.......: avg=0s       min=0s       med=0s      max=0s       p(90)=0s       p(95)=0s      
+     http_req_waiting...............: avg=2.67ms   min=749.68µs med=1.58ms  max=7.51ms   p(90)=5.56ms   p(95)=6.54ms  
+     http_reqs......................: 5       287.751352/s
+     iteration_duration.............: avg=17.26ms  min=17.26ms  med=17.26ms max=17.26ms  p(90)=17.26ms  p(95)=17.26ms 
+     iterations.....................: 1       57.55027/s
+

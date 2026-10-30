@@ -1,0 +1,246 @@
+{
+    "root_group": {
+        "name": "",
+        "path": "",
+        "id": "d41d8cd98f00b204e9800998ecf8427e",
+        "groups": {},
+        "checks": {
+                "/%E0%A4 error controlado (400/404)": {
+                    "name": "/%E0%A4 error controlado (400/404)",
+                    "path": "::/%E0%A4 error controlado (400/404)",
+                    "id": "968db4b0ca235ed5a73cad230a344cee",
+                    "passes": 1,
+                    "fails": 0
+                },
+                "/%E0%A4 sin trazas internas": {
+                    "name": "/%E0%A4 sin trazas internas",
+                    "path": "::/%E0%A4 sin trazas internas",
+                    "id": "6a6f5565baeff33adeb0b898c9e4be25",
+                    "passes": 1,
+                    "fails": 0
+                },
+                "/%E0%A4 responde JSON": {
+                    "id": "141600c71eda957242306f084c8fe86c",
+                    "passes": 1,
+                    "fails": 0,
+                    "name": "/%E0%A4 responde JSON",
+                    "path": "::/%E0%A4 responde JSON"
+                },
+                "/%FF error controlado (400/404)": {
+                    "id": "f74c8faa7c97a8a7f9f8ecc39afdac94",
+                    "passes": 1,
+                    "fails": 0,
+                    "name": "/%FF error controlado (400/404)",
+                    "path": "::/%FF error controlado (400/404)"
+                },
+                "/%FF sin trazas internas": {
+                    "name": "/%FF sin trazas internas",
+                    "path": "::/%FF sin trazas internas",
+                    "id": "ae58a7ae73a488f0e9ab16b882d26e36",
+                    "passes": 1,
+                    "fails": 0
+                },
+                "/%FF responde JSON": {
+                    "id": "bd696138339ae2fae3c73b9aa5697d39",
+                    "passes": 1,
+                    "fails": 0,
+                    "name": "/%FF responde JSON",
+                    "path": "::/%FF responde JSON"
+                },
+                "/%C0%AF error controlado (400/404)": {
+                    "name": "/%C0%AF error controlado (400/404)",
+                    "path": "::/%C0%AF error controlado (400/404)",
+                    "id": "224257b5abd49aba239333ea3982f9da",
+                    "passes": 1,
+                    "fails": 0
+                },
+                "/%C0%AF sin trazas internas": {
+                    "name": "/%C0%AF sin trazas internas",
+                    "path": "::/%C0%AF sin trazas internas",
+                    "id": "e543f95ee9c0ddcf838457ea4da03484",
+                    "passes": 1,
+                    "fails": 0
+                },
+                "/%C0%AF responde JSON": {
+                    "name": "/%C0%AF responde JSON",
+                    "path": "::/%C0%AF responde JSON",
+                    "id": "a5086032d29a61285e121d7f1df13894",
+                    "passes": 1,
+                    "fails": 0
+                },
+                "/%80 error controlado (400/404)": {
+                    "id": "01539712261a24b9c7db31b2c5c1b9ac",
+                    "passes": 1,
+                    "fails": 0,
+                    "name": "/%80 error controlado (400/404)",
+                    "path": "::/%80 error controlado (400/404)"
+                },
+                "/%80 sin trazas internas": {
+                    "name": "/%80 sin trazas internas",
+                    "path": "::/%80 sin trazas internas",
+                    "id": "64f88c4d7db7b6bcc11978b8ab0dd1b6",
+                    "passes": 1,
+                    "fails": 0
+                },
+                "/%80 responde JSON": {
+                    "path": "::/%80 responde JSON",
+                    "id": "e240a224d4ee8a6b1f67a3b199cf9a10",
+                    "passes": 1,
+                    "fails": 0,
+                    "name": "/%80 responde JSON"
+                },
+                "/app%E0%A4%A8%E0/styles.css error controlado (400/404)": {
+                    "fails": 0,
+                    "name": "/app%E0%A4%A8%E0/styles.css error controlado (400/404)",
+                    "path": "::/app%E0%A4%A8%E0/styles.css error controlado (400/404)",
+                    "id": "51536519cd0e562bd51becf1878bde30",
+                    "passes": 1
+                },
+                "/app%E0%A4%A8%E0/styles.css sin trazas internas": {
+                    "fails": 0,
+                    "name": "/app%E0%A4%A8%E0/styles.css sin trazas internas",
+                    "path": "::/app%E0%A4%A8%E0/styles.css sin trazas internas",
+                    "id": "326bab20127146ed0a30cb8bc8a783a5",
+                    "passes": 1
+                },
+                "/app%E0%A4%A8%E0/styles.css responde JSON": {
+                    "name": "/app%E0%A4%A8%E0/styles.css responde JSON",
+                    "path": "::/app%E0%A4%A8%E0/styles.css responde JSON",
+                    "id": "25a65ac64ad0dabdbd6b33bdc752693e",
+                    "passes": 1,
+                    "fails": 0
+                },
+                "/%ED%A0%80 error controlado (400/404)": {
+                    "name": "/%ED%A0%80 error controlado (400/404)",
+                    "path": "::/%ED%A0%80 error controlado (400/404)",
+                    "id": "44011a6a507310b0e55980cfdcb985cc",
+                    "passes": 1,
+                    "fails": 0
+                },
+                "/%ED%A0%80 sin trazas internas": {
+                    "name": "/%ED%A0%80 sin trazas internas",
+                    "path": "::/%ED%A0%80 sin trazas internas",
+                    "id": "3d6bedfe092af68646d707f42e07a7c8",
+                    "passes": 1,
+                    "fails": 0
+                },
+                "/%ED%A0%80 responde JSON": {
+                    "name": "/%ED%A0%80 responde JSON",
+                    "path": "::/%ED%A0%80 responde JSON",
+                    "id": "5b7d2d3b695df3128980173a7bf23df5",
+                    "passes": 1,
+                    "fails": 0
+                },
+                "servidor sigue disponible": {
+                    "path": "::servidor sigue disponible",
+                    "id": "81b625616f021414f6579e21a2481fc5",
+                    "passes": 1,
+                    "fails": 0,
+                    "name": "servidor sigue disponible"
+                }
+            }
+    },
+    "metrics": {
+        "data_sent": {
+            "count": 624,
+            "rate": 31036.04124948516
+        },
+        "http_req_blocked": {
+            "avg": 0.3292024285714285,
+            "min": 0.002556,
+            "med": 0.003846,
+            "max": 2.27763,
+            "p(90)": 0.9168090000000008,
+            "p(95)": 1.5972194999999982
+        },
+        "http_req_connecting": {
+            "avg": 0.31350314285714287,
+            "min": 0,
+            "med": 0,
+            "max": 2.194522,
+            "p(90)": 0.8778088000000008,
+            "p(95)": 1.5361653999999985
+        },
+        "iterations": {
+            "count": 1,
+            "rate": 49.73724559212365
+        },
+        "http_req_tls_handshaking": {
+            "avg": 0,
+            "min": 0,
+            "med": 0,
+            "max": 0,
+            "p(90)": 0,
+            "p(95)": 0
+        },
+        "http_req_waiting": {
+            "p(90)": 4.228026200000002,
+            "p(95)": 5.684206099999997,
+            "avg": 2.1283335714285716,
+            "min": 0.71634,
+            "med": 1.061258,
+            "max": 7.140386
+        },
+        "http_req_failed": {
+            "fails": 1,
+            "passes": 6,
+            "value": 0.8571428571428571
+        },
+        "http_req_duration{expected_response:true}": {
+            "avg": 1.10154,
+            "min": 1.10154,
+            "med": 1.10154,
+            "max": 1.10154,
+            "p(90)": 1.10154,
+            "p(95)": 1.10154
+        },
+        "http_reqs": {
+            "count": 7,
+            "rate": 348.16071914486554
+        },
+        "http_req_sending": {
+            "med": 0.009659,
+            "max": 0.067109,
+            "p(90)": 0.0622406,
+            "p(95)": 0.06467479999999999,
+            "avg": 0.02424885714285715,
+            "min": 0.007158
+        },
+        "iteration_duration": {
+            "max": 19.96799,
+            "p(90)": 19.96799,
+            "p(95)": 19.96799,
+            "avg": 19.96799,
+            "min": 19.96799,
+            "med": 19.96799
+        },
+        "checks": {
+            "passes": 19,
+            "fails": 0,
+            "thresholds": {
+                "rate==1": false
+            },
+            "value": 1
+        },
+        "data_received": {
+            "rate": 116186.20570320085,
+            "count": 2336
+        },
+        "http_req_duration": {
+            "p(95)": 5.833814999999996,
+            "avg": 2.214830285714286,
+            "min": 0.762,
+            "med": 1.10154,
+            "max": 7.331889,
+            "p(90)": 4.335741000000002
+        },
+        "http_req_receiving": {
+            "max": 0.124394,
+            "p(90)": 0.10689200000000001,
+            "p(95)": 0.11564299999999998,
+            "avg": 0.062247857142857146,
+            "min": 0.031125,
+            "med": 0.044698
+        }
+    }
+}

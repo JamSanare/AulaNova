@@ -1,0 +1,217 @@
+{
+    "metrics": {
+        "http_req_waiting": {
+            "avg": 26.04493309196004,
+            "min": 0.11726,
+            "med": 11.878642,
+            "max": 465.310079,
+            "p(90)": 69.538764,
+            "p(95)": 94.1866685
+        },
+        "http_req_duration": {
+            "med": 12.656668,
+            "max": 465.351533,
+            "p(90)": 70.623683,
+            "p(95)": 95.9732555,
+            "avg": 26.811270775213686,
+            "min": 0.157471
+        },
+        "http_req_duration{expected_response:true}": {
+            "p(95)": 100.19539390000007,
+            "avg": 27.85120609227328,
+            "min": 0.157471,
+            "med": 13.143273,
+            "max": 465.351533,
+            "p(90)": 72.98103720000006
+        },
+        "vus": {
+            "value": 1,
+            "min": 1,
+            "max": 60
+        },
+        "http_req_receiving": {
+            "avg": 0.3704190171028315,
+            "min": 0.012671,
+            "med": 0.034519,
+            "max": 105.007274,
+            "p(90)": 0.706785,
+            "p(95)": 1.6815105
+        },
+        "http_req_duration{tipo:valida}": {
+            "avg": 27.85120609227328,
+            "min": 0.157471,
+            "med": 13.143273,
+            "max": 465.351533,
+            "p(90)": 72.98103720000006,
+            "p(95)": 100.19539390000007,
+            "thresholds": {
+                "p(95)<800": false
+            }
+        },
+        "http_req_blocked": {
+            "min": 0.001708,
+            "med": 0.004232,
+            "max": 20.098221,
+            "p(90)": 0.007959,
+            "p(95)": 0.0108915,
+            "avg": 0.011810522495810206
+        },
+        "iterations": {
+            "count": 23271,
+            "rate": 387.7760348494125
+        },
+        "http_req_sending": {
+            "p(95)": 2.1802025,
+            "avg": 0.39591866615100313,
+            "min": 0.004603,
+            "med": 0.015501,
+            "max": 33.834825,
+            "p(90)": 0.943348
+        },
+        "data_received": {
+            "count": 3328215466,
+            "rate": 55459679.28021871
+        },
+        "http_req_tls_handshaking": {
+            "avg": 0,
+            "min": 0,
+            "med": 0,
+            "max": 0,
+            "p(90)": 0,
+            "p(95)": 0
+        },
+        "iteration_duration": {
+            "p(90)": 173.218741,
+            "p(95)": 199.01608199999998,
+            "avg": 129.25730955072856,
+            "min": 100.285437,
+            "med": 115.866325,
+            "max": 568.505576
+        },
+        "vus_max": {
+            "value": 60,
+            "min": 60,
+            "max": 60
+        },
+        "checks{tipo:invalida}": {
+            "passes": 4544,
+            "fails": 0,
+            "thresholds": {
+                "rate>0.99": false
+            },
+            "value": 1
+        },
+        "checks{tipo:valida}": {
+            "passes": 18727,
+            "fails": 0,
+            "thresholds": {
+                "rate>0.99": false
+            },
+            "value": 1
+        },
+        "http_reqs": {
+            "count": 23271,
+            "rate": 387.7760348494125
+        },
+        "http_req_connecting": {
+            "avg": 0.002738144170856431,
+            "min": 0,
+            "med": 0,
+            "max": 14.584959,
+            "p(90)": 0,
+            "p(95)": 0
+        },
+        "checks": {
+            "passes": 23271,
+            "fails": 0,
+            "value": 1
+        },
+        "data_sent": {
+            "count": 4293684,
+            "rate": 71547.75284329701
+        },
+        "http_req_failed": {
+            "fails": 18727,
+            "passes": 4544,
+            "value": 0.1952644922865369
+        }
+    },
+    "root_group": {
+        "name": "",
+        "path": "",
+        "id": "d41d8cd98f00b204e9800998ecf8427e",
+        "groups": {},
+        "checks": {
+                "POST 201": {
+                    "name": "POST 201",
+                    "path": "::POST 201",
+                    "id": "5c9c58873cc91543900e18f58beb50d1",
+                    "passes": 9366,
+                    "fails": 0
+                },
+                "GET 200": {
+                    "name": "GET 200",
+                    "path": "::GET 200",
+                    "id": "835c47aa361246554e0c8a59faa18f11",
+                    "passes": 9361,
+                    "fails": 0
+                },
+                "rechaza vacío con 400": {
+                    "passes": 584,
+                    "fails": 0,
+                    "name": "rechaza vacío con 400",
+                    "path": "::rechaza vacío con 400",
+                    "id": "5e1ba2fca304ebfbd56bab2c27c43e84"
+                },
+                "rechaza tipos erróneos con 400": {
+                    "path": "::rechaza tipos erróneos con 400",
+                    "id": "9b3b99878c23462301f0e1596b7ebc14",
+                    "passes": 539,
+                    "fails": 0,
+                    "name": "rechaza tipos erróneos con 400"
+                },
+                "rechaza asunto corto con 400": {
+                    "fails": 0,
+                    "name": "rechaza asunto corto con 400",
+                    "path": "::rechaza asunto corto con 400",
+                    "id": "cc6aa526142cee718c596ddcae39fdba",
+                    "passes": 557
+                },
+                "rechaza json roto con 400": {
+                    "name": "rechaza json roto con 400",
+                    "path": "::rechaza json roto con 400",
+                    "id": "948ddf35a241b0a13e08ea44ad5a44e4",
+                    "passes": 590,
+                    "fails": 0
+                },
+                "rechaza null con 400": {
+                    "name": "rechaza null con 400",
+                    "path": "::rechaza null con 400",
+                    "id": "875a6839fcdfbac34a0686fa9544eed1",
+                    "passes": 582,
+                    "fails": 0
+                },
+                "rechaza array con 400": {
+                    "name": "rechaza array con 400",
+                    "path": "::rechaza array con 400",
+                    "id": "879aed7814e8ad473d4e6285969c37b8",
+                    "passes": 576,
+                    "fails": 0
+                },
+                "rechaza curso inexistente con 400": {
+                    "path": "::rechaza curso inexistente con 400",
+                    "id": "f19bf6f01d080f171c553acf1cf3bab5",
+                    "passes": 577,
+                    "fails": 0,
+                    "name": "rechaza curso inexistente con 400"
+                },
+                "rechaza texto plano con 400": {
+                    "name": "rechaza texto plano con 400",
+                    "path": "::rechaza texto plano con 400",
+                    "id": "85c3084c647cbf767db8085b84d2da16",
+                    "passes": 539,
+                    "fails": 0
+                }
+            }
+    }
+}
